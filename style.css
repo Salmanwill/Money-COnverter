@@ -1,0 +1,120 @@
+* { box-sizing: border-box; }
+body {
+    background-color: #0f172a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Phone Mockup */
+.phone-frame {
+    width: 360px;
+    height: 720px;
+    background: #ffffff;
+    border-radius: 40px;
+    border: 10px solid #1e293b;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.status-bar {
+    padding: 15px 30px 5px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.app-header {
+    padding: 30px 25px;
+}
+
+h1 { font-size: 32px; font-weight: 800; margin: 0; color: #1e293b; }
+p { color: #64748b; margin: 5px 0 0; font-size: 14px; }
+
+.app-body { padding: 0 20px; }
+
+.currency-card {
+    background: #f8fafc;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.currency-card label {
+    font-size: 12px;
+    font-weight: 600;
+    color: #6366f1;
+    text-transform: uppercase;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+input, h2 {
+    font-size: 24px;
+    font-weight: 700;
+    border: none;
+    background: transparent;
+    width: 60%;
+    margin: 0;
+    outline: none;
+}
+
+select {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    padding: 8px 12px;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.swap-divider {
+    display: flex;
+    justify-content: center;
+    margin: -25px 0 -5px;
+    position: relative;
+    z-index: 5;
+}
+
+#swapBtn {
+    background: #6366f1;
+    color: white;
+    border: none;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(99, 102, 241, 0.4);
+}
+
+.action-button {
+    width: 100%;
+    background: #1e293b;
+    color: white;
+    border: none;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.info-footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #94a3b8;
+    font-size: 12px;
+}
